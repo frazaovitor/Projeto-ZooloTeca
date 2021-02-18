@@ -1,7 +1,9 @@
 :root {
   --background: rgb(245, 250, 248);
   --destaque: rgb(0, 32, 131);
+  --destaque2: rgb(219, 231, 233);
   --borda: rgb(160, 180, 183);
+  --link: #818da3;
 }
 
 * {
@@ -28,12 +30,22 @@
   font-weight: 700;
 }
 
-body {
-  background-color: var(--background);
+.destaque1 {
+  color: var(--destaque);
+  font-weight: 700;
+}
+
+.destaque2 {
+  color: var(--destaque2);
+  font-weight: 700;
 }
 
 h1 {
   color: var(--destaque);
+}
+
+body {
+  background-color: var(--background);
 }
 
 header {
@@ -69,7 +81,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  color: #818da3;
+  color: var(--link);
   transition: 0.3s;
 }
 
@@ -85,7 +97,7 @@ nav > ul > li > a:hover {
   margin: 2rem 0;
 }
 
-.conteudo {
+.conteudo1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,4 +128,27 @@ nav > ul > li > a:hover {
   padding-top: 2rem;
   border-top: 2px solid var(--borda);
   color: #436369;
+}
+
+/* como funciona */
+
+.conteudo2 {
+  margin-top: 5rem;
+  width: 100%;
+  background-color: rgb(160, 180, 183);
+}
+
+.como-funciona {
+  padding: 2rem 0;
+  width: 1000px;
+  margin: auto;
+  line-height: 2rem;
+}
+
+/* simulando */
+
+.conteudo3 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 5rem;
 }
