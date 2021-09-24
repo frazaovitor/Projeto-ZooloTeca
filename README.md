@@ -1,3 +1,3 @@
 # Projeto-ZooloTeca
- Projeto de um site comercial</br>
+ Projeto não finalizado e um cliente</br>
  https://frazaovitor.github.io/Projeto-ZooloTeca/
